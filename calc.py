@@ -24,7 +24,7 @@ print("3. Multiplication")
 print("4. Division")
 
 while True:
-    choice = input("What action would you like to carry out")
+    choice = input("What action would you like to do")
 
     if choice in ('1', '2', '3', '4'):
         num1 = float(input("Enter first number: "))
@@ -42,6 +42,6 @@ while True:
         print("Invalid input")
 
     another_calculation = input(
-        "Do you want to perform another calculation? (y/n): ")
+        "Do you want to perform calculation? (y/n): ")
     if another_calculation.lower() != 'y':
         break
